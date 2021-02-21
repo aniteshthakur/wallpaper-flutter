@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "290281172856",
+    "firebase_url": "https://encanto-55811.firebaseio.com",
+    "project_id": "encanto-55811",
+    "storage_bucket": "encanto-55811.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290281172856:android:9da838e165b2379898a28d",
+        "android_client_info": {
+          "package_name": "com.anitesh.wallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290281172856-h9kb9csbmuvufj8118dqfh72chq71ngd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCEMjURCEtrAm4Vv_o5ghNQbzvXF4plWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290281172856-h9kb9csbmuvufj8118dqfh72chq71ngd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
