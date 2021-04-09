@@ -87,69 +87,69 @@ class _HomeState extends State<Home> {
               ],
             ),
           ),
-          Container(
-            height: MediaQuery.of(context).size.height,
-            width: MediaQuery.of(context).size.width,
-            alignment: Alignment.bottomCenter,
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: <Widget>[
-                InkWell(
-                    onTap: () {
-                      //Navigator.pop(context);
-                    },
-                    child: Stack(
-                      children: <Widget>[
-                        Container(
-                          width: MediaQuery.of(context).size.width / 2.5,
-                          height: 50,
-                          decoration: BoxDecoration(
-                            color: Color(0xff1C1B1B).withOpacity(0.8),
-                            borderRadius: BorderRadius.circular(40),
-                          ),
-                        ),
-                        Container(
-                            width: MediaQuery.of(context).size.width / 2.5,
-                            height: 50,
-                            alignment: Alignment.center,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(40),
-                                gradient: LinearGradient(
-                                    colors: [
-                                      Color(0x36FFFFFF),
-                                      Color(0x0FFFFFFF)
-                                    ],
-                                    begin: FractionalOffset.topLeft,
-                                    end: FractionalOffset.bottomRight)),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: <Widget>[
-                                Icon(
-                                  Icons.home,
-                                  color: Colors.white,
-                                  size: 30,
-                                ),
-                                SizedBox(
-                                  width: 20,
-                                ),
-                                Icon(
-                                  Icons.face,
-                                  color: Colors.white,
-                                  size: 30,
-                                ),
-                              ],
-                            )),
-                      ],
-                    )),
-                SizedBox(
-                  height: 16,
-                ),
-                SizedBox(
-                  height: 50,
-                )
-              ],
-            ),
-          )
+          // Container(
+          //   height: MediaQuery.of(context).size.height,
+          //   width: MediaQuery.of(context).size.width,
+          //   alignment: Alignment.bottomCenter,
+          //   child: Column(
+          //     mainAxisSize: MainAxisSize.min,
+          //     children: <Widget>[
+          //       InkWell(
+          //           onTap: () {
+          //             //Navigator.pop(context);
+          //           },
+          //           child: Stack(
+          //             children: <Widget>[
+          //               Container(
+          //                 width: MediaQuery.of(context).size.width / 2.5,
+          //                 height: 50,
+          //                 decoration: BoxDecoration(
+          //                   color: Color(0xff1C1B1B).withOpacity(0.8),
+          //                   borderRadius: BorderRadius.circular(40),
+          //                 ),
+          //               ),
+          //               Container(
+          //                   width: MediaQuery.of(context).size.width / 2.5,
+          //                   height: 50,
+          //                   alignment: Alignment.center,
+          //                   decoration: BoxDecoration(
+          //                       borderRadius: BorderRadius.circular(40),
+          //                       gradient: LinearGradient(
+          //                           colors: [
+          //                             Color(0x36FFFFFF),
+          //                             Color(0x0FFFFFFF)
+          //                           ],
+          //                           begin: FractionalOffset.topLeft,
+          //                           end: FractionalOffset.bottomRight)),
+          //                   child: Row(
+          //                     mainAxisAlignment: MainAxisAlignment.center,
+          //                     children: <Widget>[
+          //                       Icon(
+          //                         Icons.home,
+          //                         color: Colors.white,
+          //                         size: 30,
+          //                       ),
+          //                       SizedBox(
+          //                         width: 20,
+          //                       ),
+          //                       Icon(
+          //                         Icons.face,
+          //                         color: Colors.white,
+          //                         size: 30,
+          //                       ),
+          //                     ],
+          //                   )),
+          //             ],
+          //           )),
+          //       SizedBox(
+          //         height: 16,
+          //       ),
+          //       SizedBox(
+          //         height: 50,
+          //       )
+          //     ],
+          //   ),
+          // )
         ],
       ),
     );

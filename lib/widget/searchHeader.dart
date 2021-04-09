@@ -31,69 +31,64 @@ class NetworkingPageHeader extends SliverPersistentHeaderDelegate {
                 fit: StackFit.expand,
                 children: [
                   Container(
-                    decoration: BoxDecoration(
-                      color: Color(0xff191919),
+                    // width: MediaQuery.of(context).size.width,
+                    child: Image.asset(
+                      'images/new1.png',
+                      fit: BoxFit.cover,
                     ),
                   ),
                   Positioned(
-                      left: 65,
+                      left: 120,
                       right: 16,
-                      bottom: 165,
+                      bottom: 115,
                       child: Row(
                         children: [
                           Text(
                             'E',
                             style: TextStyle(
-                                fontSize: 50,
-                                color: Colors.white70,
-                                fontWeight: FontWeight.w700),
-                          ),
-                          Container(
-                            margin: EdgeInsets.symmetric(horizontal: 18),
-                            height: 30,
-                            width: 30,
-                            decoration: BoxDecoration(
-                                color: Color(0xff191919),
-                                borderRadius: BorderRadius.circular(4),
-                                boxShadow: [
-                                  BoxShadow(
-                                      color: Colors.grey[900],
-                                      offset: Offset(4.0, 4.0),
-                                      blurRadius: 5.0,
-                                      spreadRadius: 1),
-                                  BoxShadow(
-                                      color: Colors.grey[700],
-                                      offset: Offset(-4.0, -4.0),
-                                      blurRadius: 5.0,
-                                      spreadRadius: 1),
-                                ]),
-                          ),
-                          Text(
-                            'C',
-                            style: TextStyle(
-                                fontSize: 50,
-                                color: Colors.white70,
+                                fontSize: 30,
+                                fontFamily: 'Lato',
+                                color: Colors.white,
                                 fontWeight: FontWeight.w700),
                           ),
                           Text(
-                            'A',
+                            ' N',
                             style: TextStyle(
-                                fontSize: 50,
-                                color: Colors.white70,
+                                fontSize: 30,
+                                fontFamily: 'Lato',
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold),
+                          ),
+                          Text(
+                            ' C',
+                            style: TextStyle(
+                                fontSize: 30,
+                                fontFamily: 'Lato',
+                                color: Colors.white,
                                 fontWeight: FontWeight.w700),
                           ),
                           Text(
-                            'N',
+                            ' A',
                             style: TextStyle(
-                                fontSize: 50,
-                                color: Colors.white70,
+                                fontSize: 30,
+                                fontFamily: 'Lato',
+                                color: Colors.white,
                                 fontWeight: FontWeight.w700),
                           ),
                           Text(
-                            'T',
+                            ' N',
                             style: TextStyle(
-                                fontSize: 50,
-                                color: Colors.white70,
+                                fontSize: 30,
+                                fontFamily: 'Lato',
+                                color: Colors.white,
+                                fontWeight: FontWeight.w700),
+                          ),
+                          Text(
+                            ' T',
+                            style: TextStyle(
+                                fontSize: 30,
+                                fontFamily: 'Lato',
+                                color: Colors.white,
                                 fontWeight: FontWeight.w700),
                           ),
                           Container(
@@ -132,11 +127,11 @@ class NetworkingPageHeader extends SliverPersistentHeaderDelegate {
                   //   ),
                   // ),
                   Positioned(
-                    right: 300,
-                    bottom: 110,
+                    right: 310,
+                    bottom: 90,
                     child: Container(
-                      height: 80,
-                      width: 80,
+                      height: 70,
+                      width: 70,
                       margin: EdgeInsets.symmetric(horizontal: 7, vertical: 7),
                       child: Image.asset(
                         'images/logo2.png',

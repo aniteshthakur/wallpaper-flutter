@@ -77,6 +77,7 @@ class _MainContentState extends State<MainContent> {
                 "Explore",
                 style: TextStyle(
                   //customize depth here
+
                   color: Colors.grey[50],
                   fontSize: 20,
                   fontWeight: FontWeight.w400,
